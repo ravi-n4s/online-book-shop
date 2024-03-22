@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for online-book-shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index",
+    "watch": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravi-n4s/online-book-shop.git"
+  },
+  "author": "ravi-n4s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravi-n4s/online-book-shop/issues"
+  },
+  "homepage": "https://github.com/ravi-n4s/online-book-shop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
